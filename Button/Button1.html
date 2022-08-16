@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+
+<head>
+<link rel="stylesheet" href="button.css">
+<title>Button</title>
+
+</head>
+
+
+<body>
+	<div>
+		<h1>Click Me!</h1>
+	</div>
+	<button type="button"  onclick ="show1()"> show image</button> </br>
+	<div id="show_image"></div>
+
+<script>
+
+function show1(){
+show_image.innerHTML = '<img src="NAM.jfif"/>' + '</br>' +'<button onclick ="hide1()"> hide image</button> </br>';
+}
+
+function hide1(){
+document.getElementById("show_image").innerHTML="";
+}
+
+</script>
+</body>
+
+
+</html>

@@ -1,0 +1,12 @@
+form{
+    border: 1px solid black;
+    width: 30%;
+}
+
+.box {
+    margin: 10px;
+}
+.box label{
+    min-width: 50%;
+    
+}

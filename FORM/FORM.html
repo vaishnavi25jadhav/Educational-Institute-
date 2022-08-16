@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="FORM.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form  method="post" onsubmit="return validate()" name="myform"  action="#" onsubmit="return validateemail();">
+
+       <div class="box">
+        <label for="">First Name</label>
+        <input type="text" id="txt" name="txt">
+       </div>
+
+
+        <div class="box">
+            <label for="">Last Name</label>
+        <input type="text" id="lastname" name="txt">
+        </div>
+
+        <div class="box">
+            <label for="">Email Id</label>
+        <input type="text" name="email">
+        </div>
+
+
+        <div class="box">
+            <label for="">Phone Number</label>
+        <input id="pno"  type="tel" maxlength="10" > 
+        </div>
+
+    <div class="box">
+        <label for="">Password</label>
+        <input type="password" placeholder="Password" id="password" required>
+        
+    </div>
+
+    <div class="box">
+        <label for="">Confirm Password</label>
+        <input type="password" placeholder="Confirm Password" id="confirm_password" required>
+    
+    </div>
+       
+    <div class="box">
+        <button onclick="validate()" type="button">submit</button>
+    </div>
+
+        
+        </form>
+
+
+    <script src="FORM.js"></script>
+</body>
+</html>
